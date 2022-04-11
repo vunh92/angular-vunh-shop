@@ -7,10 +7,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // Gọi HttpClientModule
 import { HttpClientModule } from '@angular/common/http';
+import { RegisterComponent } from './Modules/register/register.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
